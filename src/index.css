@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: Roboto;
+    margin: 0%;
+}
+header{
+    background-color: #92191F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.logotipo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.menu a{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0px 7px;
+}
+
+.menu a:hover{
+    background-color: rgb(246, 177, 32);
+}
+
+.relogio{
+    background-color: rgb(246, 177, 32);
+    border-radius: 15px;  
+    padding: 8px 24px;
+    width: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.relogio p{
+    font-size: 14px;
+    font-weight: 600;  
+}
+
+
+.voxmix{
+    border-radius: 0 0 50px 50px;
+    width: 720px;
+}
+
+.anuncios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBoxMusic{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.nomeCantor{
+    color: #DE1B1B;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.3rem;
+}
+
+.nomeMusica{
+    margin-bottom: 1rem;
+}
+
+.btyoutube{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: solid 1.5px #DE1B1B;
+    color: #333333;
+    font-size: 14px;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.btyoutube:hover{
+    background-color: #DE1B1B;
+    transition: 0.3s;
+}
+
+.maisPedidas{
+    padding: 8rem;
+}
+
+.musicas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.boxMusica{
+    width: 19%;
+    margin-top: 1.5rem;
+}
+
+.maisPedidas h1{
+    color: #333333;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.capaPromo{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxPromoc{
+    width: 30%;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(154, 154, 154, 0.2);
+}
+
+.promos{
+    padding: 8rem;
+    background-color: #F7F7F7;
+}
+
+.cardPromo{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.footerPromo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    height: 100%;
+}
+
+.nomePromo{
+    color: #414141;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+}
+
+.validadePromo{
+    width: 30%;
+    font-size: 13.5px;
+    color: #7a7a7a;
+}
+
+.btParticipe{
+    background-color: #DE1B1B;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 12px 28px;
+    text-decoration: none;
+    margin: 2px 7px;
+}
+
+.verTodasP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+.verTodasP a{
+    border: 1px solid #DE1B1B;
+    text-decoration: none;
+    background-color: white;
+    color: #DE1B1B;
+    padding: 12px 16px;
+}
+
+.verTodasP a:hover{
+    background-color: #DE1B1B;
+    color: white;
+    transition: 0.3s;
+}
